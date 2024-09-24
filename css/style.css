@@ -1,0 +1,97 @@
+/* flexbox */
+.wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* flex example */
+.flex-box {
+  width: 1336px;
+  background-color: lightseagreen;
+  margin: 0 auto;
+}
+.flex-block {
+  width: 310px;
+  height: 430px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-block2 {
+  width: 310px;
+  height: 430px;
+  background-color: green;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 908px;
+  align-content: space-between;
+}
+/* .row2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+} */
+.icon {
+  width: 36px;
+  height: 36px;
+  background-color: #f2f4f7;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-twitter {
+  color: blue;
+  font-size: 20px;
+}
+.fb-icon {
+  color: aqua;
+}
+.icon-wraper {
+  display: flex;
+}
+/* h.w section */
+.section-bg {
+  background-color: #faf3ea;
+  padding: 100px 0;
+}
+.container {
+  width: 1334px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+.block1 {
+  display: inline-block;
+  width: 267px;
+}
+.block2 {
+  display: inline-block;
+  width: 328px;
+  text-align: right;
+}
+.block3 {
+  display: inline-block;
+  width: 244px;
+  text-align: right;
+}
+.block4 {
+  display: inline-block;
+  width: 259px;
+  text-align: right;
+}
+.active {
+  margin-right: 78.67px;
+}
